@@ -38,6 +38,3 @@ jobs:
 
       - name: Install dependencies
         run: composer update --prefer-dist --no-interaction --no-suggest
-
-      - name: Execute tests
-        run: vendor/bin/phpunit
